@@ -36,7 +36,7 @@ class ViewController: UIViewController {
 
 
 class Child {
-    var parent: Parent?
+    weak var parent: Parent?
 
     deinit {
         print("Child deinit called")
